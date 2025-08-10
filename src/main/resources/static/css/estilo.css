@@ -1,0 +1,17 @@
+:root{ --bg:#f5f6f8; --card:#ffffff; --text:#222; --muted:#666; --accent:#2b6df6; --panel-bg:#f0f2f6; }
+body{ font-family: Arial, sans-serif; background:var(--bg); color:var(--text); margin:0; }
+header{ display:flex; justify-content:space-between; align-items:center; padding:12px 20px; background:linear-gradient(90deg,#ffffff,#f7f9fc); border-bottom:1px solid #e6e9ee; }
+.controls button{ margin-left:8px; padding:8px 12px; border-radius:6px; border:1px solid #d6dbe8; background:var(--card); cursor:pointer; }
+main{ display:flex; gap:20px; padding:20px; }
+.panel{ background:var(--card); padding:16px; border-radius:8px; box-shadow:0 2px 6px rgba(10,10,10,0.03); width:50%; min-height:320px; }
+.device-list{ list-style:none; padding:0; margin:0; }
+.device-item{ display:flex; justify-content:space-between; align-items:center; padding:10px; border-radius:6px; margin-bottom:8px; background:var(--panel-bg); }
+.device-item .info{ display:flex; flex-direction:column; }
+.device-item .controls button{ margin-left:6px; padding:6px 10px; border-radius:6px; border:1px solid #d6dbe8; background:white; cursor:pointer; }
+.log-output{ background:#0b1220; color:#cfe8ff; padding:12px; border-radius:6px; height:240px; overflow:auto; font-family:monospace; font-size:13px; white-space:pre-wrap; }
+.modal-hidden{ display:none; position:fixed; left:0; top:0; right:0; bottom:0; justify-content:center; align-items:center; background:rgba(0,0,0,0.4); }
+.modal-visible{ display:flex; position:fixed; left:0; top:0; right:0; bottom:0; justify-content:center; align-items:center; background:rgba(0,0,0,0.4); }
+.modal-content{ background:white; padding:20px; border-radius:8px; min-width:320px; box-shadow:0 4px 18px rgba(0,0,0,0.2); }
+.modal-content input, .modal-content select{ width:100%; padding:8px; margin:8px 0; border-radius:6px; border:1px solid #ddd; }
+.modal-actions{ display:flex; justify-content:flex-end; gap:8px; }
+.dark{ --bg:#0f1720; --card:#0b1220; --text:#e6eef9; --muted:#9fb4d9; --accent:#5390ff; --panel-bg:#0b1420; }
