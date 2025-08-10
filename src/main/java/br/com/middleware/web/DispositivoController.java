@@ -6,7 +6,6 @@ import org.springframework.http.MediaType;
 import br.com.middleware.fabrica.FabricaPadrao;
 import br.com.middleware.fabrica.FabricaDispositivo;
 import br.com.middleware.eventos.EventBus;
-import br.com.middleware.eventos.Evento;
 import br.com.middleware.dispositivos.Device;
 import br.com.middleware.log.ServicoLog;
 import br.com.middleware.log.FormatadorTexto;
