@@ -1,7 +1,4 @@
-# Middleware-Modular-de-Dispositivos-Inteligentes-Hildemar
-
 Middleware Inteligente
-
 Este projeto foi desenvolvido para atender aos requisitos da atividade de middleware modular da materia Padrões de Projeto, aplicando padrões , princípios SOLID e separação em camadas.
 A aplicação permite o cadastro e controle de dispositivos inteligentes, comunicação por eventos e personalização de configurações.
 
